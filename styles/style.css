@@ -2,5 +2,54 @@
   color: #B68C5A;
 }
 .bg_theme_color{
-  background-color: #B68C5A;
+  background-color: #b68c58;
+}
+.client_profile_pic{
+  height: 10rem;
+  width: 10rem;
+}
+.carousel-item>img{
+  opacity: .65;
+}
+.carousel-caption{
+  top: 15%;
+}
+
+/* accordion */
+
+.accordion-card{
+  background-color:#F3F3F3!important;
+  margin-bottom: .5rem;
+
+}
+.accordion-button{
+  background-color:#F3F3F3!important;
+  color: black!important;
+  padding: 2rem 1rem;
+
+}
+.accordion-button:focus {
+  border-color: transparent!important;
+  box-shadow: none!important;
+}
+.accordion-button::after {
+  content: "\2212";
+  background-image: none!important;
+}
+.accordion-button::after {
+  content: "\2212";
+  background-image: none!important;
+}
+.accordion-button.collapsed::after {
+  content: "\002B";
+  background-image: none!important;
+}
+.contact_form input,.contact_form textarea{
+  border:none;
+  background: #F3F3F3;
+}
+.contact_section .card{
+  background: #F3F3F3;
+  border-radius: 0;
+  
 }
