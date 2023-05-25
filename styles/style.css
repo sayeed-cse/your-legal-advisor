@@ -1,7 +1,6 @@
-.brand_logo{
-  /* height: 2rem; */
-  /* width: auto; */
+.theme_color{
+  color: #B68C5A;
 }
-.nav_collapse{
-  align-content: center;
+.bg_theme_color{
+  background-color: #B68C5A;
 }

@@ -9,65 +9,194 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Custom Style -->
-    <link rel="stylesheet" href="styles/style.css">
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="styles/style.css">
 
   <title>Your LeAd</title>
 </head>
 
 <body>
   <!-- Header Start -->
-  <header class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="d-flex justify-content-between">
-        <div>
-          <img src="images/logo2.png" alt="" class="">
-          
-        </div>
-        <div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <header class="mx-auto">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container px-0">
+        <div class="navbar-header">
+
+          <a class="navbar-brand me-3" href="#">
+            <img src="images/logo2.png" alt="" class="">
+          </a>
+          <button type="button" class="navbar-toggler ms-5" data-bs-toggle="collapse" data-bs-target="#legalNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services ></a>
-              </li>
-              <li class="nav-item"><a href="" class="nav-link">Cases</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
-              
-            </ul>
-            
-          </div>
-          
+
         </div>
-        
-        <div>
-          <button class="btn btn-info" type="submit">Free Consultation</button>
-          
+
+        <div class="collapse navbar-collapse" id="legalNavbar">
+          <ul class="nav navbar-nav mx-3 mx-sm-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services ></a>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">Cases</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Contact Us</a></li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right mx-3 me-sm-0">
+            <li><button class="btn btn-md text-light bg_theme_color" type="submit">Free Consultation</button></li>
+          </ul>
+
+
         </div>
+
       </div>
+
     </nav>
-    
-    <div>
-      
-    </div>
+
+
   </header>
   <!-- Header end -->
   <main>
-    <!-- banner start -->
+    <section class="container">
+      <!-- banner start -->
+      <div class="row">
+        <div style="background-image: url('images/banner.png');" class="bg-dark">
+          <!-- <img src="images/banner.png" alt="" class="position-absolute d-block w-100 opacity-50"> -->
+          <div class="text-center text-white w-lg-75 mx-auto px-md-5">
+            <h2 class="display-2 fw-bold py-5">We Provide Effective Legal Solutions</h2>
+            <p class="fs-5 text-light px-md-5">Your Legal Advisor is a one-stop unique solution to your business.
+              A-centric solutions, speedy service,
+              comparative cost solutions and easy availability. these are our driving forces.</p>
+            <form class="row g-3 mx-auto my-5 px-5 w-lg-75">
+              <div class="col-8">
+                <input type="text" class="form-control px-md-3 py-3 ms-5 fs-4 text-muted rounded-3"
+                  id="serchBoxServices" placeholder="Search your services">
+              </div>
+              <div class="col-4">
+                <button type="submit" class="btn bg_theme_color text-light py-3 px-md-5 fs-4">Search</button>
+              </div>
+            </form>
+          </div>
 
-    <section class="absolute 2xl:left-60 xl:left-56 lg:left-52 left-10">
-      <img src="images/banner.png" alt="" class="re">
-      <div class="relative top-0">
-        <h2 class="">We Provide Effective Legal Solutions</h2>
+        </div>
+      </div>
+
+      <!-- banner End -->
+    </section>
+    <section class="container my-5">
+      <div class="row text-center gy-5">
+        <h2 class="h1 text-dark">The Legal Practice Area</h2>
+        <p>According to the Bangladesh Bar Council Rules and Orders, to become a lawyer, one must have a degree in law
+          from a recognized university within Bangladesh or have a degree in law from a university recognized by the Bar
+          Council in Bangladesh, which must be verified with an equivalent certificate.</p>
+
+        <div class="col-12 col-md-6 col-lg-4 g-4">
+          <div class="card h-100">
+
+            <div class="card-body py-5">
+              <img src="images/business.png" alt="" class="w-25">
+              <div class="h-75">
+                <h5 class="card-title fs-4 fw-bold my-4">Business Law</h4>
+                  <p class="px-3 fs-5 text-justify">As the backbone of commerce, business law governs every aspect of the economic
+                    marketplace, from setting up
+                    a business entity to navigating complex contractual agreements. Understanding what is business law and
+                    its
+                    basics is crucial.</p>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 g-4">
+          <div class="card h-100">
+            <div class="card-body py-5">
+              <div class="h-25">
+                <img src="images/criminal.png" alt="" class="w-25">
+              </div>
+              
+              <h5 class="card-title fs-4 fw-bold my-4">Criminal Law</h5>
+              <p class="px-3 fs-5 text-justify">It is a body of law that relates to crimes. It is a bit risky in terms of
+                safety.A
+                crime is any act or
+                omission in violation of a law. A lawyer or plaintiff may receive threats from the wrong doer
+                endangering to
+                health, safety and moral welfare of people. Therefore it also requires safety through the government
+                actions.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 g-4">
+          <div class="card h-100">
+            <div class="card-body py-5">
+              <div class="h-25">
+                <img src="images/child.png" alt="" class="w-25">
+              </div>
+
+
+              <h5 class="card-title fs-4 fw-bold my-4">Child Support</h5>
+              <p class="px-3 fs-5 text-justify">Child support law deals with the legal obligation of non-custodial parents to
+                contribute financially to the
+                rearing of their children. These laws are enacted at the state level. However, because a child support
+                order
+                remains in effect until a child reaches the age of majority</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 g-4">
+          <div class="card h-100">
+            <div class="card-body py-5">
+              <div class="h-25">
+                <img src="images/education.png" alt="" class="w-25">
+              </div>
+              <h5 class="card-title fs-4 fw-bold my-4">Education Law</h5>
+              <p class="px-3 fs-5 text-justify">The field of education law focuses on laws and regulations that govern federal and
+                state schools and
+                school
+                boards and school systems, as well as protecting students' rights. It originally developed as a legal
+                specialization to ensure all students, faculty and staff within an educational system are treated fairly
+                and
+                that their civil rights are not compromised.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 g-4">
+          <div class="card h-100">
+            <div class="card-body py-5">
+              <div class="h-25">
+                <img src="images/divorce.png" alt="" class="w-25">
+              </div>
+              <h5 class="card-title fs-4 fw-bold my-4">Divorce Law</h5>
+              <p class="px-3 fs-5 text-justify">Divorce (also known as dissolution of marriage) is the process of terminating a marriage or marital
+                union.[1] Divorce usually entails the canceling or reorganizing of the legal duties and responsibilities
+                of
+                marriage, thus dissolving the bonds of matrimony between a married couple under the rule of law of the
+                particular country or state</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 g-4">
+          <div class="card h-100">
+            <div class="card-body py-5">
+              <div class="h-25">
+                <img src="images/tax.png" alt="" class="w-25">
+              </div>
+              <h5 class="card-title fs-4 fw-bold my-4">Tax Law</h5>
+              <p class="px-3 fs-5 text-justify">Tax law or revenue law is an area of legal study in which public or sanctioned authorities, such as
+                federal, state and municipal governments (as in the case of the US) use a body of rules and procedures
+                (laws) to assess and collect taxes in a legal context.</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
-    <!-- banner End -->
   </main>
   <footer></footer>
 
