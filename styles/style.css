@@ -51,6 +51,7 @@
 .contact_section .card{
   background: #F3F3F3;
   border-radius: 0;
+  box-sizing: border-box!important;
   
 }
 .card-footer {
